@@ -1,4 +1,5 @@
 import pandas as pd
 
 iris = pd.read_csv('data/iris.csv')
-print(iris.sample(10))
+print(iris.columns)
+print(iris.sample(10).sort_index())
